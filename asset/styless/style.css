@@ -52,7 +52,7 @@ header {
 
 .boxini > p {
   position: relative;
-  top: 99px;
+  top: 135px;
   left: 101px;
   width: 343px;
   height: 42px;
@@ -71,7 +71,7 @@ header {
   opacity: 1;
   font-size: 16px;
   position: relative;
-  top: 120px;
+  top: 156px;
 }
 
 .about {
@@ -113,6 +113,7 @@ header {
 .products {
   width: 1366px;
   height: 768px;
+  background: -webkit-gradient(linear, left top, right top, color-stop(60%, #F2F4F1), color-stop(40%, #DCE1DA));
   background: linear-gradient(to right, #F2F4F1 60%, #DCE1DA 40%);
 }
 
@@ -164,7 +165,7 @@ header {
 
 .servbackground {
   position: relative;
-  margin-top: -25px;
+  margin-top: 0px;
   width: 1366px;
   height: 768px;
   background: url("../images/section4-image.png");
@@ -186,7 +187,8 @@ header {
   text-align: left;
   margin-top: 24px;
   padding-top: 24px;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .item-content {
@@ -201,10 +203,19 @@ header {
   top: 200px;
 }
 
+.accordion {
+  position: relative;
+  width: 670px;
+  height: 64px;
+  top: 144px;
+  left: 101px;
+}
+
 .boxcontact {
   position: absolute;
   width: 1366px;
   height: 768px;
+  background: -webkit-gradient(linear, left top, right top, color-stop(60%, #F2F4F1), color-stop(40%, #DCE1DA));
   background: linear-gradient(to right, #F2F4F1 60%, #DCE1DA 40%);
 }
 
@@ -241,5 +252,4 @@ header {
   background-color: #E0752F;
   border: #E0752F;
 }
-
 /*# sourceMappingURL=style.css.map */

@@ -1,6 +1,6 @@
 .servbackground{
     position: relative;
-    margin-top: -25px;
+    margin-top: 0px;
     width: 1366px;
     height: 768px;
     background: url("../images/section4-image.png");
@@ -38,4 +38,12 @@
     width: 669px;
     left: 101px;
     top: 200px;
+}
+
+.accordion{
+    position: relative;
+    width: 670px;
+    height: 64px;
+    top: 144px;
+    left: 101px;
 }
