@@ -1,0 +1,35 @@
+.about{
+    width: 1366px;
+    height: 674px;
+}
+
+.boxabout{
+    position: relative;
+    border: solid 15px orangered;
+    border-right: hidden;
+    border-top: hidden;
+    border-bottom: hidden;
+    top: 167px;
+}
+.boxabout>h2{
+    font-size: 32px;
+    margin-left: 167px;
+}
+
+.boxabout>h2>span{
+    color: #E0752F;
+}
+
+.contabout{
+    width: auto;
+    height: 627px;
+    position: absolute;
+
+}
+
+.boxabout>p{
+    font-size: 16px;
+    width: 768px;
+    height: 167px;
+    margin-left: 167px;
+}

@@ -1,0 +1,265 @@
+html{
+    margin: 0px;
+    font-size: 62.5%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+
+}
+
+/* aqui comienza la seccion header */
+
+.box{
+    background: url("../images/slider-1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1366px;
+    height: 768px;
+}
+
+header{
+    border: solid 2px orange;
+}
+
+.navbar{
+    position: relative;
+}
+
+.navbar>ul{
+    list-style: none;
+    margin-left: 700px;
+    margin-top: -25px;
+    display: -webkit-box;
+    font-size: 16px;
+}
+.navbar>ul>li{
+    padding: 36px 16px 36px 16px;
+    margin-left: 26px
+}
+.navbar>ul>li>a{
+    text-decoration: none;
+    color: white;
+}
+
+.logo{
+    position: relative;
+    top: 33px;
+    left: 100px;
+    width: 129px;
+    height: 30px;
+}
+
+/* aqui comienza INICIO */
+
+.boxini>h2{
+    position: relative;
+    font-size: 48px;
+    color: white;
+    top: 124px;
+    left: 101px;
+    width: 554px;
+    height: 115px;
+}
+
+.boxini>p{
+    position: relative;
+    top: 99px;
+    left: 101px;
+    width: 343px;
+    height: 42px;
+    font-size: 16px;
+    color: white;
+}
+
+.btnread{
+    border-radius: 25px;
+    left: 100px;
+    width: 144px;
+    height: 48px;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #E0752F;
+    opacity: 1;
+    font-size: 16px;
+    position: relative;
+    top: 120px;
+}
+
+/* aqui comienza about */
+.about{
+    width: 1366px;
+    height: 674px;
+}
+
+.boxabout{
+    position: relative;
+    border: solid 15px orangered;
+    border-right: hidden;
+    border-top: hidden;
+    border-bottom: hidden;
+    top: 167px;
+}
+.boxabout>h2{
+    font-size: 32px;
+    margin-left: 167px;
+}
+
+.boxabout>h2>span{
+    color: #E0752F;
+}
+
+.contabout{
+    width: auto;
+    height: 627px;
+    position: absolute;
+
+}
+
+.boxabout>p{
+    font-size: 16px;
+    width: 768px;
+    height: 167px;
+    margin-left: 167px;
+}
+
+/* aqui comienza PRODUTCS */
+
+.products{
+    width: 1366px;
+    height: 768px;
+    background: linear-gradient(to right, #F2F4F1 60%, #DCE1DA 40%);
+}
+
+.imagpro{
+    position: relative;
+    background: url("../images/section3-image.png");
+    width: 962px;
+    height: 552px;
+    top: 112px;
+    left: 200px;
+}
+
+.containerpro{
+    position: relative;
+    background-color: #E0752F;
+    width: 471px;
+    height: 304px;
+    top: 248px;
+    left: 491px;
+}
+
+.containerpro>h2{
+    position: relative;
+    color: white;
+    font-size: 39px;
+    top: 40px;
+    left: 50px;
+}
+.containerpro>h2>span{
+    font-size: 16px;
+
+}
+.containerpro>p{
+    position: relative;
+    color: white;
+    font-size: 16px;
+    width: 372px;
+    height: 63px;
+    top: 40px;
+    left: 50px;
+}
+.arrows{
+    position: relative;
+    top: 55px;
+    left: 371px;
+}
+
+/* aqui comienza SERVICES */
+
+.servbackground{
+    position: relative;
+    margin-top: -25px;
+    width: 1366px;
+    height: 768px;
+    background: url("../images/section4-image.png");
+    background-position: right;
+    background-repeat: no-repeat;
+    
+
+}
+
+.boxaccordion{
+    width: 569px;
+    height: 192px;
+
+}
+
+.btn-item{
+    color: black;
+    font-size: 16px;
+    width: 669px;
+    height: 64px;
+    background-color: wheat;
+    text-align: left;
+    margin-top: 24px;
+    padding-top: 24px;
+    box-sizing: border-box;
+}
+
+.item-content{
+    width: 569px;
+    font-size: 16px;
+}
+
+.container-acordeon{
+    position: relative;
+    width: 669px;
+    left: 101px;
+    top: 200px;
+}
+
+/* aqui comienza CONTACT  */
+
+.boxcontact{
+    position: absolute;
+    width: 1366px;
+    height: 768px;
+    background: linear-gradient(to right, #F2F4F1 60%, #DCE1DA 40%);
+}
+
+.imagcontact{
+    position: relative;
+    top: -50px;
+    left: 671px; 
+}
+
+.boxform{
+    position: relative;
+    top: 194px;
+    left: 101px;
+}
+
+.form-header{
+    font-size: 39px;
+}
+
+.form-header>h2>span{
+    color: #E0752F;
+}
+
+.btnsub{
+    top: 480px;
+    left: 101px;
+    width: 144px;
+    height: 48px;
+    border-radius: 25px;
+    opacity: 1;
+    text-align: center;
+    color: #FFFFFF;
+    opacity: 1;
+    background-color: #E0752F;
+    border: #E0752F;
+}
+
+.form-control{
+
+}

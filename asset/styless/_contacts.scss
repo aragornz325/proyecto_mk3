@@ -1,0 +1,44 @@
+.boxcontact{
+    position: absolute;
+    width: 1366px;
+    height: 768px;
+    background: linear-gradient(to right, #F2F4F1 60%, #DCE1DA 40%);
+}
+
+.imagcontact{
+    position: relative;
+    top: -50px;
+    left: 671px; 
+}
+
+.boxform{
+    position: relative;
+    top: 194px;
+    left: 101px;
+}
+
+.form-header{
+    font-size: 39px;
+}
+
+.form-header>h2>span{
+    color: #E0752F;
+}
+
+.btnsub{
+    top: 480px;
+    left: 101px;
+    width: 144px;
+    height: 48px;
+    border-radius: 25px;
+    opacity: 1;
+    text-align: center;
+    color: #FFFFFF;
+    opacity: 1;
+    background-color: #E0752F;
+    border: #E0752F;
+}
+
+.form-control{
+
+}

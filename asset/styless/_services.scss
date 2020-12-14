@@ -1,0 +1,41 @@
+.servbackground{
+    position: relative;
+    margin-top: -25px;
+    width: 1366px;
+    height: 768px;
+    background: url("../images/section4-image.png");
+    background-position: right;
+    background-repeat: no-repeat;
+    
+
+}
+
+.boxaccordion{
+    width: 569px;
+    height: 192px;
+
+}
+
+.btn-item{
+    color: black;
+    font-size: 16px;
+    width: 669px;
+    height: 64px;
+    background-color: wheat;
+    text-align: left;
+    margin-top: 24px;
+    padding-top: 24px;
+    box-sizing: border-box;
+}
+
+.item-content{
+    width: 569px;
+    font-size: 16px;
+}
+
+.container-acordeon{
+    position: relative;
+    width: 669px;
+    left: 101px;
+    top: 200px;
+}

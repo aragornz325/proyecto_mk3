@@ -1,0 +1,49 @@
+.products{
+    width: 1366px;
+    height: 768px;
+    background: linear-gradient(to right, #F2F4F1 60%, #DCE1DA 40%);
+}
+
+.imagpro{
+    position: relative;
+    background: url("../images/section3-image.png");
+    width: 962px;
+    height: 552px;
+    top: 112px;
+    left: 200px;
+}
+
+.containerpro{
+    position: relative;
+    background-color: #E0752F;
+    width: 471px;
+    height: 304px;
+    top: 248px;
+    left: 491px;
+}
+
+.containerpro>h2{
+    position: relative;
+    color: white;
+    font-size: 39px;
+    top: 40px;
+    left: 50px;
+}
+.containerpro>h2>span{
+    font-size: 16px;
+
+}
+.containerpro>p{
+    position: relative;
+    color: white;
+    font-size: 16px;
+    width: 372px;
+    height: 63px;
+    top: 40px;
+    left: 50px;
+}
+.arrows{
+    position: relative;
+    top: 55px;
+    left: 371px;
+}
