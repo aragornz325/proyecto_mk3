@@ -6,15 +6,16 @@
 }
 
 .imagcontact{
-    position: relative;
-    top: -50px;
+    position: absolute;
+    top: 192px;
     left: 671px; 
 }
 
 .boxform{
     position: relative;
-    top: 194px;
+    top: 120px;
     left: 101px;
+    width: 450px;
 }
 
 .form-header{
@@ -37,8 +38,4 @@
     opacity: 1;
     background-color: #E0752F;
     border: #E0752F;
-}
-
-.form-control{
-
 }
