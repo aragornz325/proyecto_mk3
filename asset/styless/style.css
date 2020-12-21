@@ -17,6 +17,7 @@ html {
 header {
   width: 100%;
   max-width: 1366px;
+  height: 96px;
   position: fixed;
   border: solid 2px orange;
 }
@@ -27,14 +28,14 @@ header {
 
 .navbar > ul {
   list-style: none;
-  margin-left: 700px;
+  margin-left: 810px;
   display: -webkit-box;
   font-size: 16px;
 }
 
 .navbar > ul > li {
   padding: 36px 16px 36px 16px;
-  margin-left: 26px;
+  top: 38px;
 }
 
 .navbar > ul > li > a {
@@ -45,6 +46,7 @@ header {
 
 .logo {
   position: absolute;
+  top: 33px;
   left: 100px;
   width: 129px;
   height: 30px;
@@ -288,10 +290,5 @@ header {
   left: 101px;
   top: 33px;
   color: white;
-}
-
-.space {
-  height: 45px;
-  position: absolute;
 }
 /*# sourceMappingURL=style.css.map */
