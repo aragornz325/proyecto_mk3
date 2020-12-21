@@ -15,6 +15,9 @@ html {
 }
 
 header {
+  width: 100%;
+  max-width: 1366px;
+  position: fixed;
   border: solid 2px orange;
 }
 
@@ -25,7 +28,6 @@ header {
 .navbar > ul {
   list-style: none;
   margin-left: 700px;
-  margin-top: -25px;
   display: -webkit-box;
   font-size: 16px;
 }
@@ -38,29 +40,32 @@ header {
 .navbar > ul > li > a {
   text-decoration: none;
   color: white;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 .logo {
-  position: relative;
-  top: 33px;
+  position: absolute;
   left: 100px;
   width: 129px;
   height: 30px;
 }
 
 .boxini > h2 {
+  width: 554px;
+  height: 115px;
   position: relative;
   font-size: 48px;
   color: white;
-  top: 124px;
+  top: 254px;
   left: 101px;
   width: 554px;
   height: 115px;
+  letter-spacing: 0.67px;
 }
 
 .boxini > p {
   position: relative;
-  top: 135px;
+  top: 285px;
   left: 101px;
   width: 343px;
   height: 42px;
@@ -79,7 +84,7 @@ header {
   opacity: 1;
   font-size: 16px;
   position: relative;
-  top: 156px;
+  top: 320px;
 }
 
 .about {
@@ -266,7 +271,7 @@ header {
   position: relative;
   top: 768px;
   background-color: #343434;
-  margin-bottom: 50px;
+  margin-bottom: 51px;
 }
 
 .logfuter {
@@ -276,5 +281,17 @@ header {
 
 .footer {
   margin-bottom: 25px;
+}
+
+.futer > p {
+  position: relative;
+  left: 101px;
+  top: 33px;
+  color: white;
+}
+
+.space {
+  height: 45px;
+  position: absolute;
 }
 /*# sourceMappingURL=style.css.map */
